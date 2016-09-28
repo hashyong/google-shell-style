@@ -1,10 +1,10 @@
 #！ /bin/sh
 
 err() {
-  echo "[$(date +'%Y-%m-%d T %H:%M:%S%z')]: $@" >&2
+  echo "[$(date +'%Y-%m-%d %H:%M:%S')]: $@" >&2
 }
 
 if true ; then
-  err "unable to do_something"
+  err "我想睡觉"
   exit 1
 fi
